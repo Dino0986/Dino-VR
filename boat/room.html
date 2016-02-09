@@ -1,0 +1,25 @@
+<!-- Written with Janus VR.  URL: file:///C:/Users/Dave/Documents/Janus/AutoUpdater/JanusVR_Win32/workspace/TempestVR1/room.html -->
+<html>
+<head>
+<title>Boat</title>
+</head>
+<body>
+<FireBoxRoom>
+<Assets>
+<AssetObject id="boat" src="Boat.obj" mtl="Boat.mtl" />
+<AssetObject id="moon" src="Moon.obj" mtl="Moon.mtl" />
+<AssetObject id="water" src="Water.obj" mtl="Water.mtl" />
+<AssetImage id="sky" src="sky.png" tex_clamp="true" />
+<AssetImage id="thumb" src="door.png" tex_clamp="true" />
+<AssetShader id="water_shader" vertex_src="water_vertex.txt" />
+<AssetSound id="bg_sound" src="bg.wav" />
+</Assets>
+<Room thumb_id="thumb" pos="0 0 0" xdir="1 0 0" ydir="0 1 0" zdir="0 0 1" skybox_down_id="sky" skybox_front_id="sky" skybox_left_id="sky" skybox_back_id="sky" skybox_right_id="sky" skybox_up_id="sky" run_speed="2.4" fog="true" fog_density="0.05">
+<Object id="boat" js_id="0" pos="0 -3.6 11.599999" xdir="-0.000001 0 -1" zdir="1 0 -0.000001" scale="0.031 0.031 0.031" cull_face="none" collision_id="boat" />
+<Object id="water" js_id="1" pos="0 4.6 0" scale="5 5 5" shader_id="water_shader" collision_id="water" rotate_deg_per_sec="5" />
+<Object id="moon" js_id="2" pos="-30 70 31" />
+<Sound id="bg_sound" js_id="3" pos="0 7 4.3" rect="-100 100 100 -100" />
+</Room>
+</FireBoxRoom>
+</body>
+</html>
