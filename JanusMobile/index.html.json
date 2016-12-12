@@ -1,0 +1,208 @@
+{
+    "FireBoxRoom": {
+        "Assets": {
+            "AssetImage": [
+                {
+                    "id": "rightsky",
+                    "ou3d": false,
+                    "reverse3d": false,
+                    "sbs3d": false,
+                    "src": "Skybox/right.png",
+                    "tex_clamp": true,
+                    "tex_compress": false,
+                    "tex_linear": true,
+                    "tex_mipmap": true
+                },
+                {
+                    "id": "backsky",
+                    "ou3d": false,
+                    "reverse3d": false,
+                    "sbs3d": false,
+                    "src": "Skybox/back.png",
+                    "tex_clamp": true,
+                    "tex_compress": false,
+                    "tex_linear": true,
+                    "tex_mipmap": true
+                },
+                {
+                    "id": "frontsky",
+                    "ou3d": false,
+                    "reverse3d": false,
+                    "sbs3d": false,
+                    "src": "Skybox/front.png",
+                    "tex_clamp": true,
+                    "tex_compress": false,
+                    "tex_linear": true,
+                    "tex_mipmap": true
+                },
+                {
+                    "id": "leftsky",
+                    "ou3d": false,
+                    "reverse3d": false,
+                    "sbs3d": false,
+                    "src": "Skybox/left.png",
+                    "tex_clamp": true,
+                    "tex_compress": false,
+                    "tex_linear": true,
+                    "tex_mipmap": true
+                },
+                {
+                    "id": "downsky",
+                    "ou3d": false,
+                    "reverse3d": false,
+                    "sbs3d": false,
+                    "src": "Skybox/down.png",
+                    "tex_clamp": true,
+                    "tex_compress": false,
+                    "tex_linear": true,
+                    "tex_mipmap": true
+                },
+                {
+                    "id": "upsky",
+                    "ou3d": false,
+                    "reverse3d": false,
+                    "sbs3d": false,
+                    "src": "Skybox/up.png",
+                    "tex_clamp": true,
+                    "tex_compress": false,
+                    "tex_linear": true,
+                    "tex_mipmap": true
+                }
+            ],
+            "AssetObject": [
+                {
+                    "id": "Ground",
+                    "src": "Ground.dae"
+                },
+                {
+                    "id": "Water",
+                    "src": "Water.dae"
+                },
+                {
+                    "id": "Trees2",
+                    "src": "Trees2.dae"
+                },
+                {
+                    "id": "BenchFence",
+                    "src": "BenchFence.dae"
+                },
+                {
+                    "id": "Deck",
+                    "src": "Deck.dae"
+                },
+                {
+                    "id": "TVBBQ",
+                    "src": "TVBBQ.dae"
+                },
+                {
+                    "id": "Trees",
+                    "src": "Trees.dae"
+                },
+                {
+                    "id": "CoolerFence",
+                    "src": "CoolerFence.dae"
+                }
+            ]
+        },
+        "Room": {
+            "Object": [
+                {
+                    "collider_id": "",
+                    "collision_id": "Ground",
+                    "id": "Ground",
+                    "js_id": "0",
+                    "pos": "3 -0.3 3",
+                    "scale": "0.4 0.4 0.4",
+                    "xdir": "0.000001 0.000001 -1",
+                    "ydir": "-0.000003 1 0.000001",
+                    "zdir": "1 0.000003 0.000001"
+                },
+                {
+                    "collider_id": "",
+                    "collision_id": "Water",
+                    "id": "Water",
+                    "js_id": "1",
+                    "pos": "3 -0.3 3",
+                    "scale": "0.4 0.4 0.4",
+                    "xdir": "-0.000002 0 -1",
+                    "zdir": "1 0 -0.000002"
+                },
+                {
+                    "collider_id": "",
+                    "collision_id": "Trees2",
+                    "id": "Trees2",
+                    "js_id": "2",
+                    "pos": "3 -0.3 3",
+                    "scale": "0.4 0.4 0.4",
+                    "xdir": "-0.000002 0 -1",
+                    "zdir": "1 0 -0.000002"
+                },
+                {
+                    "collider_id": "",
+                    "collision_id": "BenchFence",
+                    "id": "BenchFence",
+                    "js_id": "3",
+                    "pos": "3 -0.3 3",
+                    "scale": "0.4 0.4 0.4",
+                    "xdir": "0.000005 0.000001 -1",
+                    "ydir": "0.000007 1 0.000001",
+                    "zdir": "1 -0.000007 0.000005"
+                },
+                {
+                    "collider_id": "",
+                    "collision_id": "Deck",
+                    "id": "Deck",
+                    "js_id": "4",
+                    "pos": "3 -0.3 3",
+                    "scale": "0.4 0.4 0.4",
+                    "xdir": "0.000004 -0.000005 -1",
+                    "ydir": "0 1 -0.000005",
+                    "zdir": "1 0 0.000004"
+                },
+                {
+                    "collider_id": "",
+                    "collision_id": "TVBBQ",
+                    "id": "TVBBQ",
+                    "js_id": "5",
+                    "pos": "3 -0.3 3",
+                    "scale": "0.4 0.4 0.4",
+                    "xdir": "-0.000003 -0 -1",
+                    "ydir": "-0.000009 1 0",
+                    "zdir": "1 0.000009 -0.000003"
+                },
+                {
+                    "collider_id": "",
+                    "collision_id": "Trees",
+                    "id": "Trees",
+                    "js_id": "6",
+                    "pos": "3 -0.3 3",
+                    "scale": "0.4 0.4 0.4",
+                    "xdir": "-0.000012 -0.000003 -1",
+                    "ydir": "0.000005 1 -0.000003",
+                    "zdir": "1 -0.000005 -0.000012"
+                },
+                {
+                    "collider_id": "",
+                    "collision_id": "CoolerFence",
+                    "id": "CoolerFence",
+                    "js_id": "Accommodating_Serious_Dino-20-1481511876",
+                    "pos": "3 -0.3 3",
+                    "scale": "0.4 0.4 0.4",
+                    "xdir": "0.000002 0 -1",
+                    "ydir": "-0.000008 1 0",
+                    "zdir": "1 0.000008 0.000002"
+                }
+            ],
+            "pos": "0 0 0",
+            "skybox_back_id": "frontsky",
+            "skybox_down_id": "downsky",
+            "skybox_front_id": "backsky",
+            "skybox_left_id": "leftsky",
+            "skybox_right_id": "rightsky",
+            "skybox_up_id": "upsky",
+            "xdir": "1 0 0",
+            "ydir": "0 1 0",
+            "zdir": "0 0 1"
+        }
+    }
+}
