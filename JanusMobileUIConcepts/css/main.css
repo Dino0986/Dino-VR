@@ -916,9 +916,8 @@ header .logo a {
 }
 .main-content {
 	display: table-cell;
-	/*vertical-align: middle;*/
-	top: 30%;
-	left: 10%;
+	vertical-align: middle;
+	
 	position: relative;
 	z-index: 700;  
 }
