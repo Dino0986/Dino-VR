@@ -883,7 +883,7 @@ header .logo a {
 
 /* static background */
 #main-404-content.main-content-static {
-	background-image: url(../images/slides/greens.jpg);
+	background-image: url(../images/bg.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	-webkit-background-size: cover;
