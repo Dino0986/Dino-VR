@@ -891,27 +891,8 @@ header .logo a {
 	background-size: cover;
 }
 
-/* slideshow background */
-#main-404-content.main-content-slides {
-	height: 100% !important;
-}
 
-/* particle background */
-#main-404-content.main-content-particle-js {
-	background: #020507;
-	overflow: hidden;
-}
-#main-404-content.main-content-particle-js .pg-canvas {
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 100% !important;
-	width: 100% !important;
-	opacity: .15;
-}
-#main-404-content.main-content-particle-js .shadow-overlay {
-	display: none;
-}
+
 
 
 .content-wrap {
