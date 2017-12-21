@@ -1,0 +1,15 @@
+<FireBoxRoom>
+<Assets>
+<AssetObject id="idle" src="http://dino0986.github.io/Dino-VR/2017Avatar/idle_fixed.fbx" />
+<AssetObject id="run" src="https://github.com/Dino0986/Dino-VR/blob/gh-pages/2017Avatar/fixed/running_inPlace.fbx?raw=true" />
+<AssetObject id="walk_back" src="https://github.com/Dino0986/Dino-VR/blob/gh-pages/2017Avatar/fixed/moonwalk_inPlace.fbx?raw=true" />
+<AssetObject id="walk" src="https://github.com/Dino0986/Dino-VR/blob/gh-pages/2017Avatar/fixed/walking_inPlace.fbx?raw=true" />
+<AssetObject id="body" src="http://dino0986.github.io/Dino-VR/2017Avatar/Fixed.fbx" />
+<AssetObject id="walk_left" src="https://github.com/Dino0986/Dino-VR/blob/gh-pages/2017Avatar/fixed/left_strafe_walking_inPlace.fbx?raw=true" />
+<AssetObject id="walk_right" src="https://github.com/Dino0986/Dino-VR/blob/gh-pages/2017Avatar/fixed/right_strafe_walking_inPlace.fbx?raw=true" />
+<AssetObject id="jump" src="https://github.com/Dino0986/Dino-VR/blob/gh-pages/2017Avatar/fixed/jumping.fbx?raw=true" />
+</Assets>
+<Room>
+<Ghost id="Dino_2666" pos="2.266264 0 -8.656532" xdir="0.962432 0 0.271523" zdir="-0.271523 0 0.962432" scale="0.1 0.1 0.1" lighting="true" head_pos="0 0 0" body_id="body" anim_id="idle" />
+</Room>
+</FireBoxRoom>
