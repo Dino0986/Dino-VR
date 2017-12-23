@@ -44,6 +44,11 @@
 
 ---
 
-#### -  Step 2 : Making a Decent Sketchup Model  
+#### -  Step 2 : Picking a style and getting started
+1. Start modelling! Start small, making large models requires lots of work, and is a great way to burn yourself out before you make anything you are proud of. Think of a simple scene. Something like a park bench, campfire, bedroom, or street corner are great starting points. Try to pick something within your skill set, don't over reach and make sure you feel comfortable with the way Sketchup works.
+1. Pick a style and stick with it, if you change styles while your final product will look very unity store esque. I use a very low poly stylized style. 
+2. You can texture with Sketchup, but its texturing tools are very limited, while also producing very poor UV maps. These UV's can be used, as .dae files can have multiple UV maps, and Janus supports this. UV maps are used to tell the software where your textures should be on the model, blender can auto generate UV's for you, but these should not be used if you intend on having hand painted textures.
 
-Start modelling! 
+##### This a screenshot from JanusVR, after baking shadows using blender. This Beetle has no textures other than shadows, the rest are vertex colours.
+	
+![alt text](https://raw.githubusercontent.com/Dino0986/Dino-VR/gh-pages/Sketchup-Janus/beetle.png "Beetle")
