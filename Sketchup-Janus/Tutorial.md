@@ -52,3 +52,21 @@
 ##### This a screenshot from JanusVR, after baking shadows using blender. This Beetle has no textures other than shadows, the rest are vertex colours.
 	
 ![alt text](https://raw.githubusercontent.com/Dino0986/Dino-VR/gh-pages/Sketchup-Janus/beetle.png "Beetle")
+
+---
+
+#### -  Step 2 : Actually starting to model.
+
+- I'm going to make a little street corner with a couple tables, chairs, and a faux storefront for an imaginary coffee shop. From here on out, most of this guide will be silent videos with a text write up to go along with.
+
+##### **All keyboard shorcuts are in the bottom left corner, as well as being in brackets in the write up. **
+
+1. 0:00 Starting with a square(R), I used a 10'x10' square(R) and extruded(P) it up 3".
+2. 0:20 Then I offset(F) the rear 2 edges 5' towards the middle of the square.
+3. 0:30 Then I extruded(P) the L shaped section up 3".
+4. 0:38 Using the offset(F) tool again I offset the inside edges 4" to make the curb.
+5. 0:42 Then I extruded(P) the curb a half inch above the L shape.
+6. Then, using round corner, I added a fillet to the curb. Round corner works by first selecting the edges you want to modify and then clicking on either fillet or chamfer. After you select what style you want you type a number, this number is how long the modification will be, measured from the corner in. I used 1".
+7. 1:00 As a final step, I used the eraser(E) and the shift key modifier to un-soften the edges. This allows you to see your edges so you can select them later. A good practice for anyone using roundcorner.
+
+<iframe width="740" height="400" src="https://www.youtube.com/embed/DJFW-Lft-cQ" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
